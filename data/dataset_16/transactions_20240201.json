@@ -1,0 +1,2787 @@
+[
+  {
+    "transaction_id": 60913696,
+    "customer_id": 14,
+    "timestamp": "2024-02-01T07:43:48.282677",
+    "items": [
+      {
+        "product_id": 11,
+        "product_name": "Salted Australian Ropes",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 83626173,
+    "customer_id": 26,
+    "timestamp": "2024-02-01T13:09:52.805226",
+    "items": [
+      {
+        "product_id": 5,
+        "product_name": "Glaze Colors Eggs Seasonal Shapes",
+        "qty": 4
+      },
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 30,
+        "product_name": "Vitamin Coating Hard Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 28,
+        "product_name": "Vitamin Coating Hard Medicated Drops",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 32678087,
+    "customer_id": 28,
+    "timestamp": "2024-02-01T00:17:00.964047",
+    "items": [
+      {
+        "product_id": 18,
+        "product_name": "Black/Red/White Twists Braids",
+        "qty": 1
+      },
+      {
+        "product_id": 29,
+        "product_name": "Natural Dyes Hard Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 2,
+        "product_name": "Themed Foils Canes Seasonal Shapes",
+        "qty": null
+      },
+      {
+        "product_id": 6,
+        "product_name": "Themed Foils Eggs Seasonal Shapes",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 88485369,
+    "customer_id": 12,
+    "timestamp": "2024-02-01T22:27:28.088652",
+    "items": [
+      {
+        "product_id": 5,
+        "product_name": "Glaze Colors Eggs Seasonal Shapes",
+        "qty": 4
+      },
+      {
+        "product_id": 8,
+        "product_name": "Black/Red/White Laces Ropes",
+        "qty": 2
+      },
+      {
+        "product_id": 4,
+        "product_name": "Themed Foils Hearts Seasonal Shapes",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 51073111,
+    "customer_id": 12,
+    "timestamp": "2024-02-01T01:38:33.402080",
+    "items": [
+      {
+        "product_id": 28,
+        "product_name": "Vitamin Coating Hard Medicated Drops",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 9362914,
+    "customer_id": 1,
+    "timestamp": "2024-02-01T08:27:35.729510",
+    "items": [
+      {
+        "product_id": 12,
+        "product_name": "Black/Red/White Australian Ropes",
+        "qty": 5
+      },
+      {
+        "product_id": 6,
+        "product_name": "Themed Foils Eggs Seasonal Shapes",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 81922113,
+    "customer_id": 7,
+    "timestamp": "2024-02-01T02:13:40.993687",
+    "items": [
+      {
+        "product_id": 8,
+        "product_name": "Black/Red/White Laces Ropes",
+        "qty": null
+      },
+      {
+        "product_id": 12,
+        "product_name": "Black/Red/White Australian Ropes",
+        "qty": 5
+      },
+      {
+        "product_id": 26,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 5,
+        "product_name": "Glaze Colors Eggs Seasonal Shapes",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 10136419,
+    "customer_id": 11,
+    "timestamp": "2024-02-01T22:56:21.087216",
+    "items": [
+      {
+        "product_id": 28,
+        "product_name": "Vitamin Coating Hard Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 26,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glaze Colors Hearts Seasonal Shapes",
+        "qty": 4
+      },
+      {
+        "product_id": 27,
+        "product_name": "Natural Dyes Hard Medicated Drops",
+        "qty": 3
+      },
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 28805936,
+    "customer_id": 26,
+    "timestamp": "2024-02-01T17:10:07.326946",
+    "items": [
+      {
+        "product_id": 4,
+        "product_name": "Themed Foils Hearts Seasonal Shapes",
+        "qty": 2
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glaze Colors Hearts Seasonal Shapes",
+        "qty": 3
+      },
+      {
+        "product_id": 16,
+        "product_name": "Black/Red/White Twists Ropes",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 98806540,
+    "customer_id": 8,
+    "timestamp": "2024-02-01T10:24:48.119251",
+    "items": [
+      {
+        "product_id": 5,
+        "product_name": "Glaze Colors Eggs Seasonal Shapes",
+        "qty": 2
+      },
+      {
+        "product_id": 7,
+        "product_name": "Salted Laces Ropes",
+        "qty": null
+      },
+      {
+        "product_id": 26,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 15,
+        "product_name": "Salted Twists Ropes",
+        "qty": 4
+      },
+      {
+        "product_id": 17,
+        "product_name": "Salted Twists Braids",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 88993653,
+    "customer_id": 11,
+    "timestamp": "2024-02-01T18:34:58.741823",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "Glaze Colors Canes Seasonal Shapes",
+        "qty": 4
+      },
+      {
+        "product_id": 28,
+        "product_name": "Vitamin Coating Hard Medicated Drops",
+        "qty": 3
+      },
+      {
+        "product_id": 6,
+        "product_name": "Themed Foils Eggs Seasonal Shapes",
+        "qty": null
+      },
+      {
+        "product_id": 26,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 13,
+        "product_name": "Salted Australian Braids",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 55734648,
+    "customer_id": 12,
+    "timestamp": "2024-02-01T07:40:51.679939",
+    "items": [
+      {
+        "product_id": 29,
+        "product_name": "Natural Dyes Hard Standard",
+        "qty": null
+      },
+      {
+        "product_id": 8,
+        "product_name": "Black/Red/White Laces Ropes",
+        "qty": 4
+      },
+      {
+        "product_id": 9,
+        "product_name": "Salted Laces Braids",
+        "qty": 2
+      },
+      {
+        "product_id": 7,
+        "product_name": "Salted Laces Ropes",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 26726778,
+    "customer_id": 22,
+    "timestamp": "2024-02-01T13:32:31.067358",
+    "items": [
+      {
+        "product_id": 17,
+        "product_name": "Salted Twists Braids",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 94636667,
+    "customer_id": 27,
+    "timestamp": "2024-02-01T13:51:52.252033",
+    "items": [
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 6,
+        "product_name": "Themed Foils Eggs Seasonal Shapes",
+        "qty": 3
+      },
+      {
+        "product_id": 5,
+        "product_name": "Glaze Colors Eggs Seasonal Shapes",
+        "qty": 5
+      },
+      {
+        "product_id": 14,
+        "product_name": "Black/Red/White Australian Braids",
+        "qty": 5
+      },
+      {
+        "product_id": 10,
+        "product_name": "Black/Red/White Laces Braids",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 14124121,
+    "customer_id": 13,
+    "timestamp": "2024-02-01T13:15:43.910259",
+    "items": [
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": null
+      },
+      {
+        "product_id": 16,
+        "product_name": "Black/Red/White Twists Ropes",
+        "qty": 5
+      },
+      {
+        "product_id": 2,
+        "product_name": "Themed Foils Canes Seasonal Shapes",
+        "qty": 1
+      },
+      {
+        "product_id": 25,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 7,
+        "product_name": "Salted Laces Ropes",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 23603068,
+    "customer_id": 25,
+    "timestamp": "2024-02-01T13:26:21.771746",
+    "items": [
+      {
+        "product_id": 3,
+        "product_name": "Glaze Colors Hearts Seasonal Shapes",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 88482519,
+    "customer_id": 5,
+    "timestamp": "2024-02-01T17:58:33.685167",
+    "items": [
+      {
+        "product_id": 30,
+        "product_name": "Vitamin Coating Hard Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glaze Colors Canes Seasonal Shapes",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 31604687,
+    "customer_id": 7,
+    "timestamp": "2024-02-01T22:54:51.899662",
+    "items": [
+      {
+        "product_id": 2,
+        "product_name": "Themed Foils Canes Seasonal Shapes",
+        "qty": 3
+      },
+      {
+        "product_id": 4,
+        "product_name": "Themed Foils Hearts Seasonal Shapes",
+        "qty": 2
+      },
+      {
+        "product_id": 17,
+        "product_name": "Salted Twists Braids",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 7570611,
+    "customer_id": 15,
+    "timestamp": "2024-02-01T09:28:22.737004",
+    "items": [
+      {
+        "product_id": 11,
+        "product_name": "Salted Australian Ropes",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 88243051,
+    "customer_id": 13,
+    "timestamp": "2024-02-01T14:23:11.770376",
+    "items": [
+      {
+        "product_id": 15,
+        "product_name": "Salted Twists Ropes",
+        "qty": 4
+      },
+      {
+        "product_id": 10,
+        "product_name": "Black/Red/White Laces Braids",
+        "qty": 2
+      },
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 18,
+        "product_name": "Black/Red/White Twists Braids",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 14028792,
+    "customer_id": 17,
+    "timestamp": "2024-02-01T16:49:24.748893",
+    "items": [
+      {
+        "product_id": 7,
+        "product_name": "Salted Laces Ropes",
+        "qty": 2
+      },
+      {
+        "product_id": 30,
+        "product_name": "Vitamin Coating Hard Standard",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 97928871,
+    "customer_id": 7,
+    "timestamp": "2024-02-01T01:36:14.350324",
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Black/Red/White Twists Ropes",
+        "qty": 4
+      },
+      {
+        "product_id": 4,
+        "product_name": "Themed Foils Hearts Seasonal Shapes",
+        "qty": 2
+      },
+      {
+        "product_id": 15,
+        "product_name": "Salted Twists Ropes",
+        "qty": 5
+      },
+      {
+        "product_id": 25,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 75033979,
+    "customer_id": 4,
+    "timestamp": "2024-02-01T17:48:38.140556",
+    "items": [
+      {
+        "product_id": 6,
+        "product_name": "Themed Foils Eggs Seasonal Shapes",
+        "qty": 4
+      },
+      {
+        "product_id": 27,
+        "product_name": "Natural Dyes Hard Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 7,
+        "product_name": "Salted Laces Ropes",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 78189062,
+    "customer_id": 2,
+    "timestamp": "2024-02-01T00:09:59.441048",
+    "items": [
+      {
+        "product_id": 14,
+        "product_name": "Black/Red/White Australian Braids",
+        "qty": 3
+      },
+      {
+        "product_id": 12,
+        "product_name": "Black/Red/White Australian Ropes",
+        "qty": 3
+      },
+      {
+        "product_id": 27,
+        "product_name": "Natural Dyes Hard Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 17,
+        "product_name": "Salted Twists Braids",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 17498910,
+    "customer_id": 14,
+    "timestamp": "2024-02-01T19:33:53.308633",
+    "items": [
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 1
+      },
+      {
+        "product_id": 17,
+        "product_name": "Salted Twists Braids",
+        "qty": 3
+      },
+      {
+        "product_id": 10,
+        "product_name": "Black/Red/White Laces Braids",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 14598593,
+    "customer_id": 30,
+    "timestamp": "2024-02-01T12:29:57.052353",
+    "items": [
+      {
+        "product_id": 10,
+        "product_name": "Black/Red/White Laces Braids",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 83609331,
+    "customer_id": 3,
+    "timestamp": "2024-02-01T14:42:20.936962",
+    "items": [
+      {
+        "product_id": 10,
+        "product_name": "Black/Red/White Laces Braids",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 58353492,
+    "customer_id": 19,
+    "timestamp": "2024-02-01T04:20:26.015810",
+    "items": [
+      {
+        "product_id": 17,
+        "product_name": "Salted Twists Braids",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 72579760,
+    "customer_id": 19,
+    "timestamp": "2024-02-01T23:36:33.111109",
+    "items": [
+      {
+        "product_id": 12,
+        "product_name": "Black/Red/White Australian Ropes",
+        "qty": null
+      },
+      {
+        "product_id": 25,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 14811567,
+    "customer_id": 13,
+    "timestamp": "2024-02-01T17:07:42.598284",
+    "items": [
+      {
+        "product_id": 30,
+        "product_name": "Vitamin Coating Hard Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 6,
+        "product_name": "Themed Foils Eggs Seasonal Shapes",
+        "qty": 3
+      },
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": null
+      },
+      {
+        "product_id": 4,
+        "product_name": "Themed Foils Hearts Seasonal Shapes",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 69728038,
+    "customer_id": 14,
+    "timestamp": "2024-02-01T05:45:09.597739",
+    "items": [
+      {
+        "product_id": 26,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 12,
+        "product_name": "Black/Red/White Australian Ropes",
+        "qty": 5
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 15,
+        "product_name": "Salted Twists Ropes",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 35442537,
+    "customer_id": 29,
+    "timestamp": "2024-02-01T10:01:15.279102",
+    "items": [
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 8,
+        "product_name": "Black/Red/White Laces Ropes",
+        "qty": 1
+      },
+      {
+        "product_id": 4,
+        "product_name": "Themed Foils Hearts Seasonal Shapes",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 26471010,
+    "customer_id": 21,
+    "timestamp": "2024-02-01T11:10:15.977932",
+    "items": [
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 10,
+        "product_name": "Black/Red/White Laces Braids",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 99617093,
+    "customer_id": 22,
+    "timestamp": "2024-02-01T18:52:45.457829",
+    "items": [
+      {
+        "product_id": 27,
+        "product_name": "Natural Dyes Hard Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 29,
+        "product_name": "Natural Dyes Hard Standard",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 40789269,
+    "customer_id": 6,
+    "timestamp": "2024-02-01T12:16:24.256105",
+    "items": [
+      {
+        "product_id": 2,
+        "product_name": "Themed Foils Canes Seasonal Shapes",
+        "qty": 4
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 11,
+        "product_name": "Salted Australian Ropes",
+        "qty": 5
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 46876495,
+    "customer_id": 11,
+    "timestamp": "2024-02-01T09:28:04.288290",
+    "items": [
+      {
+        "product_id": 15,
+        "product_name": "Salted Twists Ropes",
+        "qty": 3
+      },
+      {
+        "product_id": 28,
+        "product_name": "Vitamin Coating Hard Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 8,
+        "product_name": "Black/Red/White Laces Ropes",
+        "qty": 1
+      },
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 112213,
+    "customer_id": 30,
+    "timestamp": "2024-02-01T10:57:28.896039",
+    "items": [
+      {
+        "product_id": 25,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 39792643,
+    "customer_id": 21,
+    "timestamp": "2024-02-01T04:02:18.530339",
+    "items": [
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 4,
+        "product_name": "Themed Foils Hearts Seasonal Shapes",
+        "qty": 1
+      },
+      {
+        "product_id": 26,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 17329149,
+    "customer_id": 20,
+    "timestamp": "2024-02-01T22:36:55.456757",
+    "items": [
+      {
+        "product_id": 5,
+        "product_name": "Glaze Colors Eggs Seasonal Shapes",
+        "qty": 5
+      },
+      {
+        "product_id": 2,
+        "product_name": "Themed Foils Canes Seasonal Shapes",
+        "qty": 1
+      },
+      {
+        "product_id": 13,
+        "product_name": "Salted Australian Braids",
+        "qty": null
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glaze Colors Canes Seasonal Shapes",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 26908854,
+    "customer_id": 15,
+    "timestamp": "2024-02-01T08:07:09.049282",
+    "items": [
+      {
+        "product_id": 14,
+        "product_name": "Black/Red/White Australian Braids",
+        "qty": 4
+      },
+      {
+        "product_id": 13,
+        "product_name": "Salted Australian Braids",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 25150917,
+    "customer_id": 24,
+    "timestamp": "2024-02-01T14:30:41.229043",
+    "items": [
+      {
+        "product_id": 3,
+        "product_name": "Glaze Colors Hearts Seasonal Shapes",
+        "qty": 3
+      },
+      {
+        "product_id": 10,
+        "product_name": "Black/Red/White Laces Braids",
+        "qty": null
+      },
+      {
+        "product_id": 29,
+        "product_name": "Natural Dyes Hard Standard",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 79613294,
+    "customer_id": 23,
+    "timestamp": "2024-02-01T20:33:58.633390",
+    "items": [
+      {
+        "product_id": 30,
+        "product_name": "Vitamin Coating Hard Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 3
+      },
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 98062350,
+    "customer_id": 24,
+    "timestamp": "2024-02-01T09:47:29.697372",
+    "items": [
+      {
+        "product_id": 29,
+        "product_name": "Natural Dyes Hard Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 30,
+        "product_name": "Vitamin Coating Hard Standard",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 42434934,
+    "customer_id": 25,
+    "timestamp": "2024-02-01T08:10:43.816141",
+    "items": [
+      {
+        "product_id": 18,
+        "product_name": "Black/Red/White Twists Braids",
+        "qty": null
+      },
+      {
+        "product_id": 15,
+        "product_name": "Salted Twists Ropes",
+        "qty": 2
+      },
+      {
+        "product_id": 13,
+        "product_name": "Salted Australian Braids",
+        "qty": null
+      },
+      {
+        "product_id": 8,
+        "product_name": "Black/Red/White Laces Ropes",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 97890531,
+    "customer_id": 4,
+    "timestamp": "2024-02-01T14:47:44.600003",
+    "items": [
+      {
+        "product_id": 6,
+        "product_name": "Themed Foils Eggs Seasonal Shapes",
+        "qty": 3
+      },
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 1
+      },
+      {
+        "product_id": 12,
+        "product_name": "Black/Red/White Australian Ropes",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 84607375,
+    "customer_id": 16,
+    "timestamp": "2024-02-01T16:11:48.480161",
+    "items": [
+      {
+        "product_id": 26,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glaze Colors Hearts Seasonal Shapes",
+        "qty": 5
+      },
+      {
+        "product_id": 13,
+        "product_name": "Salted Australian Braids",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 17271525,
+    "customer_id": 5,
+    "timestamp": "2024-02-01T06:52:49.208183",
+    "items": [
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 2,
+        "product_name": "Themed Foils Canes Seasonal Shapes",
+        "qty": 4
+      },
+      {
+        "product_id": 25,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 27,
+        "product_name": "Natural Dyes Hard Medicated Drops",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 2704594,
+    "customer_id": 14,
+    "timestamp": "2024-02-01T02:42:44.723630",
+    "items": [
+      {
+        "product_id": 14,
+        "product_name": "Black/Red/White Australian Braids",
+        "qty": 1
+      },
+      {
+        "product_id": 7,
+        "product_name": "Salted Laces Ropes",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 22722365,
+    "customer_id": 13,
+    "timestamp": "2024-02-01T03:06:52.759214",
+    "items": [
+      {
+        "product_id": 6,
+        "product_name": "Themed Foils Eggs Seasonal Shapes",
+        "qty": 2
+      },
+      {
+        "product_id": 7,
+        "product_name": "Salted Laces Ropes",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 56540126,
+    "customer_id": 18,
+    "timestamp": "2024-02-01T05:55:37.768182",
+    "items": [
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 16,
+        "product_name": "Black/Red/White Twists Ropes",
+        "qty": 4
+      },
+      {
+        "product_id": 26,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 54239288,
+    "customer_id": 27,
+    "timestamp": "2024-02-01T18:10:29.050766",
+    "items": [
+      {
+        "product_id": 3,
+        "product_name": "Glaze Colors Hearts Seasonal Shapes",
+        "qty": 1
+      },
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 3
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 17,
+        "product_name": "Salted Twists Braids",
+        "qty": 4
+      },
+      {
+        "product_id": 7,
+        "product_name": "Salted Laces Ropes",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 24946460,
+    "customer_id": 28,
+    "timestamp": "2024-02-01T00:42:47.117312",
+    "items": [
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 70698451,
+    "customer_id": 22,
+    "timestamp": "2024-02-01T03:36:16.782314",
+    "items": [
+      {
+        "product_id": 27,
+        "product_name": "Natural Dyes Hard Medicated Drops",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 51300718,
+    "customer_id": 21,
+    "timestamp": "2024-02-01T11:49:10.681994",
+    "items": [
+      {
+        "product_id": 28,
+        "product_name": "Vitamin Coating Hard Medicated Drops",
+        "qty": 3
+      },
+      {
+        "product_id": 18,
+        "product_name": "Black/Red/White Twists Braids",
+        "qty": 1
+      },
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 16,
+        "product_name": "Black/Red/White Twists Ropes",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 69536417,
+    "customer_id": 13,
+    "timestamp": "2024-02-01T23:36:50.982554",
+    "items": [
+      {
+        "product_id": 29,
+        "product_name": "Natural Dyes Hard Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 30,
+        "product_name": "Vitamin Coating Hard Standard",
+        "qty": null
+      },
+      {
+        "product_id": 9,
+        "product_name": "Salted Laces Braids",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 54093541,
+    "customer_id": 15,
+    "timestamp": "2024-02-01T06:07:06.738301",
+    "items": [
+      {
+        "product_id": 11,
+        "product_name": "Salted Australian Ropes",
+        "qty": 5
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glaze Colors Hearts Seasonal Shapes",
+        "qty": 5
+      },
+      {
+        "product_id": 10,
+        "product_name": "Black/Red/White Laces Braids",
+        "qty": 3
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 24572028,
+    "customer_id": 14,
+    "timestamp": "2024-02-01T17:39:22.593006",
+    "items": [
+      {
+        "product_id": 2,
+        "product_name": "Themed Foils Canes Seasonal Shapes",
+        "qty": 5
+      },
+      {
+        "product_id": 30,
+        "product_name": "Vitamin Coating Hard Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 26,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 19789686,
+    "customer_id": 12,
+    "timestamp": "2024-02-01T04:39:02.716362",
+    "items": [
+      {
+        "product_id": 29,
+        "product_name": "Natural Dyes Hard Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glaze Colors Hearts Seasonal Shapes",
+        "qty": 3
+      },
+      {
+        "product_id": 8,
+        "product_name": "Black/Red/White Laces Ropes",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 52826333,
+    "customer_id": 28,
+    "timestamp": "2024-02-01T06:11:06.889561",
+    "items": [
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": null
+      },
+      {
+        "product_id": 14,
+        "product_name": "Black/Red/White Australian Braids",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 91098005,
+    "customer_id": 4,
+    "timestamp": "2024-02-01T14:04:58.930956",
+    "items": [
+      {
+        "product_id": 25,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 6,
+        "product_name": "Themed Foils Eggs Seasonal Shapes",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 87278397,
+    "customer_id": 25,
+    "timestamp": "2024-02-01T09:36:14.290477",
+    "items": [
+      {
+        "product_id": 3,
+        "product_name": "Glaze Colors Hearts Seasonal Shapes",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 37083194,
+    "customer_id": 28,
+    "timestamp": "2024-02-01T18:39:12.696757",
+    "items": [
+      {
+        "product_id": 18,
+        "product_name": "Black/Red/White Twists Braids",
+        "qty": 4
+      },
+      {
+        "product_id": 15,
+        "product_name": "Salted Twists Ropes",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 53660339,
+    "customer_id": 17,
+    "timestamp": "2024-02-01T04:38:55.925686",
+    "items": [
+      {
+        "product_id": 13,
+        "product_name": "Salted Australian Braids",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 52828043,
+    "customer_id": 8,
+    "timestamp": "2024-02-01T01:09:00.993361",
+    "items": [
+      {
+        "product_id": 25,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 18,
+        "product_name": "Black/Red/White Twists Braids",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 14229845,
+    "customer_id": 14,
+    "timestamp": "2024-02-01T04:21:50.918064",
+    "items": [
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 12,
+        "product_name": "Black/Red/White Australian Ropes",
+        "qty": 3
+      },
+      {
+        "product_id": 11,
+        "product_name": "Salted Australian Ropes",
+        "qty": 3
+      },
+      {
+        "product_id": 6,
+        "product_name": "Themed Foils Eggs Seasonal Shapes",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 78594931,
+    "customer_id": 25,
+    "timestamp": "2024-02-01T01:54:09.359380",
+    "items": [
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 3
+      },
+      {
+        "product_id": 7,
+        "product_name": "Salted Laces Ropes",
+        "qty": 1
+      },
+      {
+        "product_id": 30,
+        "product_name": "Vitamin Coating Hard Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 9,
+        "product_name": "Salted Laces Braids",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 85516184,
+    "customer_id": 30,
+    "timestamp": "2024-02-01T18:53:53.267863",
+    "items": [
+      {
+        "product_id": 13,
+        "product_name": "Salted Australian Braids",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 40112883,
+    "customer_id": 7,
+    "timestamp": "2024-02-01T07:21:36.251114",
+    "items": [
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 9,
+        "product_name": "Salted Laces Braids",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 52498392,
+    "customer_id": 2,
+    "timestamp": "2024-02-01T07:09:15.863175",
+    "items": [
+      {
+        "product_id": 5,
+        "product_name": "Glaze Colors Eggs Seasonal Shapes",
+        "qty": 4
+      },
+      {
+        "product_id": 4,
+        "product_name": "Themed Foils Hearts Seasonal Shapes",
+        "qty": 5
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 14,
+        "product_name": "Black/Red/White Australian Braids",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 66560205,
+    "customer_id": 14,
+    "timestamp": "2024-02-01T16:25:18.887622",
+    "items": [
+      {
+        "product_id": 3,
+        "product_name": "Glaze Colors Hearts Seasonal Shapes",
+        "qty": null
+      },
+      {
+        "product_id": 7,
+        "product_name": "Salted Laces Ropes",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 80593585,
+    "customer_id": 12,
+    "timestamp": "2024-02-01T15:02:29.823156",
+    "items": [
+      {
+        "product_id": 9,
+        "product_name": "Salted Laces Braids",
+        "qty": 5
+      },
+      {
+        "product_id": 4,
+        "product_name": "Themed Foils Hearts Seasonal Shapes",
+        "qty": 4
+      },
+      {
+        "product_id": 11,
+        "product_name": "Salted Australian Ropes",
+        "qty": 2
+      },
+      {
+        "product_id": 8,
+        "product_name": "Black/Red/White Laces Ropes",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 30279314,
+    "customer_id": 2,
+    "timestamp": "2024-02-01T03:12:13.602149",
+    "items": [
+      {
+        "product_id": 7,
+        "product_name": "Salted Laces Ropes",
+        "qty": 3
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glaze Colors Canes Seasonal Shapes",
+        "qty": 3
+      },
+      {
+        "product_id": 30,
+        "product_name": "Vitamin Coating Hard Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 27,
+        "product_name": "Natural Dyes Hard Medicated Drops",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 91033407,
+    "customer_id": 12,
+    "timestamp": "2024-02-01T14:36:43.754540",
+    "items": [
+      {
+        "product_id": 12,
+        "product_name": "Black/Red/White Australian Ropes",
+        "qty": 2
+      },
+      {
+        "product_id": 30,
+        "product_name": "Vitamin Coating Hard Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glaze Colors Hearts Seasonal Shapes",
+        "qty": 2
+      },
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 61492534,
+    "customer_id": 18,
+    "timestamp": "2024-02-01T01:24:20.306099",
+    "items": [
+      {
+        "product_id": 6,
+        "product_name": "Themed Foils Eggs Seasonal Shapes",
+        "qty": 2
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 28980358,
+    "customer_id": 4,
+    "timestamp": "2024-02-01T21:52:46.482322",
+    "items": [
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 7628256,
+    "customer_id": 19,
+    "timestamp": "2024-02-01T00:56:34.622272",
+    "items": [
+      {
+        "product_id": 5,
+        "product_name": "Glaze Colors Eggs Seasonal Shapes",
+        "qty": 2
+      },
+      {
+        "product_id": 17,
+        "product_name": "Salted Twists Braids",
+        "qty": 5
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 20877853,
+    "customer_id": 8,
+    "timestamp": "2024-02-01T06:25:50.931613",
+    "items": [
+      {
+        "product_id": 17,
+        "product_name": "Salted Twists Braids",
+        "qty": 2
+      },
+      {
+        "product_id": 14,
+        "product_name": "Black/Red/White Australian Braids",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 57476813,
+    "customer_id": 13,
+    "timestamp": "2024-02-01T09:13:17.169464",
+    "items": [
+      {
+        "product_id": 15,
+        "product_name": "Salted Twists Ropes",
+        "qty": 5
+      },
+      {
+        "product_id": 27,
+        "product_name": "Natural Dyes Hard Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glaze Colors Canes Seasonal Shapes",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 1000814,
+    "customer_id": 14,
+    "timestamp": "2024-02-01T13:00:07.572845",
+    "items": [
+      {
+        "product_id": 8,
+        "product_name": "Black/Red/White Laces Ropes",
+        "qty": 3
+      },
+      {
+        "product_id": 11,
+        "product_name": "Salted Australian Ropes",
+        "qty": 1
+      },
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 10805548,
+    "customer_id": 14,
+    "timestamp": "2024-02-01T00:52:08.144758",
+    "items": [
+      {
+        "product_id": 13,
+        "product_name": "Salted Australian Braids",
+        "qty": 4
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glaze Colors Canes Seasonal Shapes",
+        "qty": 5
+      },
+      {
+        "product_id": 30,
+        "product_name": "Vitamin Coating Hard Standard",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 87307698,
+    "customer_id": 28,
+    "timestamp": "2024-02-01T19:22:35.713806",
+    "items": [
+      {
+        "product_id": 7,
+        "product_name": "Salted Laces Ropes",
+        "qty": 5
+      },
+      {
+        "product_id": 17,
+        "product_name": "Salted Twists Braids",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 80572447,
+    "customer_id": 28,
+    "timestamp": "2024-02-01T07:10:05.608794",
+    "items": [
+      {
+        "product_id": 7,
+        "product_name": "Salted Laces Ropes",
+        "qty": null
+      },
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 13,
+        "product_name": "Salted Australian Braids",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 35269731,
+    "customer_id": 27,
+    "timestamp": "2024-02-01T19:51:41.440814",
+    "items": [
+      {
+        "product_id": 10,
+        "product_name": "Black/Red/White Laces Braids",
+        "qty": 2
+      },
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 30,
+        "product_name": "Vitamin Coating Hard Standard",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 79443850,
+    "customer_id": 30,
+    "timestamp": "2024-02-01T03:34:06.926952",
+    "items": [
+      {
+        "product_id": 7,
+        "product_name": "Salted Laces Ropes",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 54803748,
+    "customer_id": 13,
+    "timestamp": "2024-02-01T03:14:00.930746",
+    "items": [
+      {
+        "product_id": 13,
+        "product_name": "Salted Australian Braids",
+        "qty": 1
+      },
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 1895288,
+    "customer_id": 28,
+    "timestamp": "2024-02-01T13:48:32.611400",
+    "items": [
+      {
+        "product_id": 27,
+        "product_name": "Natural Dyes Hard Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 30,
+        "product_name": "Vitamin Coating Hard Standard",
+        "qty": 2
+      },
+      {
+        "product_id": 9,
+        "product_name": "Salted Laces Braids",
+        "qty": 2
+      },
+      {
+        "product_id": 5,
+        "product_name": "Glaze Colors Eggs Seasonal Shapes",
+        "qty": 3
+      },
+      {
+        "product_id": 11,
+        "product_name": "Salted Australian Ropes",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 39122315,
+    "customer_id": 19,
+    "timestamp": "2024-02-01T08:48:53.334484",
+    "items": [
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 51243764,
+    "customer_id": 26,
+    "timestamp": "2024-02-01T13:57:11.722624",
+    "items": [
+      {
+        "product_id": 12,
+        "product_name": "Black/Red/White Australian Ropes",
+        "qty": 1
+      },
+      {
+        "product_id": 17,
+        "product_name": "Salted Twists Braids",
+        "qty": null
+      },
+      {
+        "product_id": 2,
+        "product_name": "Themed Foils Canes Seasonal Shapes",
+        "qty": 5
+      },
+      {
+        "product_id": 27,
+        "product_name": "Natural Dyes Hard Medicated Drops",
+        "qty": 4
+      },
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 66190282,
+    "customer_id": 12,
+    "timestamp": "2024-02-01T03:24:08.005826",
+    "items": [
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 3
+      },
+      {
+        "product_id": 14,
+        "product_name": "Black/Red/White Australian Braids",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 79184762,
+    "customer_id": 26,
+    "timestamp": "2024-02-01T20:19:41.980442",
+    "items": [
+      {
+        "product_id": 1,
+        "product_name": "Glaze Colors Canes Seasonal Shapes",
+        "qty": 2
+      },
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 44554795,
+    "customer_id": 25,
+    "timestamp": "2024-02-01T09:33:19.667188",
+    "items": [
+      {
+        "product_id": 5,
+        "product_name": "Glaze Colors Eggs Seasonal Shapes",
+        "qty": null
+      },
+      {
+        "product_id": 15,
+        "product_name": "Salted Twists Ropes",
+        "qty": 4
+      },
+      {
+        "product_id": 12,
+        "product_name": "Black/Red/White Australian Ropes",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 53494,
+    "customer_id": 22,
+    "timestamp": "2024-02-01T15:58:12.376271",
+    "items": [
+      {
+        "product_id": 3,
+        "product_name": "Glaze Colors Hearts Seasonal Shapes",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 79992971,
+    "customer_id": 10,
+    "timestamp": "2024-02-01T13:59:45.572334",
+    "items": [
+      {
+        "product_id": 13,
+        "product_name": "Salted Australian Braids",
+        "qty": null
+      },
+      {
+        "product_id": 7,
+        "product_name": "Salted Laces Ropes",
+        "qty": 2
+      },
+      {
+        "product_id": 15,
+        "product_name": "Salted Twists Ropes",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 23904757,
+    "customer_id": 3,
+    "timestamp": "2024-02-01T15:30:41.086588",
+    "items": [
+      {
+        "product_id": 27,
+        "product_name": "Natural Dyes Hard Medicated Drops",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 68104527,
+    "customer_id": 3,
+    "timestamp": "2024-02-01T04:39:03.501425",
+    "items": [
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 17,
+        "product_name": "Salted Twists Braids",
+        "qty": 3
+      },
+      {
+        "product_id": 14,
+        "product_name": "Black/Red/White Australian Braids",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 4195576,
+    "customer_id": 21,
+    "timestamp": "2024-02-01T08:23:15.573430",
+    "items": [
+      {
+        "product_id": 4,
+        "product_name": "Themed Foils Hearts Seasonal Shapes",
+        "qty": 2
+      },
+      {
+        "product_id": 13,
+        "product_name": "Salted Australian Braids",
+        "qty": null
+      },
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 62683074,
+    "customer_id": 11,
+    "timestamp": "2024-02-01T20:13:51.089149",
+    "items": [
+      {
+        "product_id": 3,
+        "product_name": "Glaze Colors Hearts Seasonal Shapes",
+        "qty": 4
+      },
+      {
+        "product_id": 2,
+        "product_name": "Themed Foils Canes Seasonal Shapes",
+        "qty": 4
+      },
+      {
+        "product_id": 30,
+        "product_name": "Vitamin Coating Hard Standard",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 4390143,
+    "customer_id": 6,
+    "timestamp": "2024-02-01T06:54:11.388196",
+    "items": [
+      {
+        "product_id": 15,
+        "product_name": "Salted Twists Ropes",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 92733111,
+    "customer_id": 9,
+    "timestamp": "2024-02-01T00:32:56.831051",
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Black/Red/White Twists Ropes",
+        "qty": 4
+      },
+      {
+        "product_id": 8,
+        "product_name": "Black/Red/White Laces Ropes",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 43991346,
+    "customer_id": 12,
+    "timestamp": "2024-02-01T03:27:06.871412",
+    "items": [
+      {
+        "product_id": 5,
+        "product_name": "Glaze Colors Eggs Seasonal Shapes",
+        "qty": 4
+      },
+      {
+        "product_id": 2,
+        "product_name": "Themed Foils Canes Seasonal Shapes",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 36040254,
+    "customer_id": 21,
+    "timestamp": "2024-02-01T20:15:50.493304",
+    "items": [
+      {
+        "product_id": 8,
+        "product_name": "Black/Red/White Laces Ropes",
+        "qty": 2
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 25,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 88947920,
+    "customer_id": 10,
+    "timestamp": "2024-02-01T20:09:14.415550",
+    "items": [
+      {
+        "product_id": 8,
+        "product_name": "Black/Red/White Laces Ropes",
+        "qty": 1
+      },
+      {
+        "product_id": 29,
+        "product_name": "Natural Dyes Hard Standard",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 89481497,
+    "customer_id": 15,
+    "timestamp": "2024-02-01T17:16:53.868457",
+    "items": [
+      {
+        "product_id": 5,
+        "product_name": "Glaze Colors Eggs Seasonal Shapes",
+        "qty": 2
+      },
+      {
+        "product_id": 26,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 14,
+        "product_name": "Black/Red/White Australian Braids",
+        "qty": 2
+      },
+      {
+        "product_id": 13,
+        "product_name": "Salted Australian Braids",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 50026535,
+    "customer_id": 24,
+    "timestamp": "2024-02-01T07:56:52.476644",
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Black/Red/White Twists Ropes",
+        "qty": 4
+      },
+      {
+        "product_id": 5,
+        "product_name": "Glaze Colors Eggs Seasonal Shapes",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 65360347,
+    "customer_id": 24,
+    "timestamp": "2024-02-01T16:36:24.655808",
+    "items": [
+      {
+        "product_id": 27,
+        "product_name": "Natural Dyes Hard Medicated Drops",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 78616745,
+    "customer_id": 23,
+    "timestamp": "2024-02-01T08:31:07.034112",
+    "items": [
+      {
+        "product_id": 29,
+        "product_name": "Natural Dyes Hard Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 17,
+        "product_name": "Salted Twists Braids",
+        "qty": 1
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 51875644,
+    "customer_id": 18,
+    "timestamp": "2024-02-01T10:05:54.808259",
+    "items": [
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 47432585,
+    "customer_id": 29,
+    "timestamp": "2024-02-01T10:04:37.511046",
+    "items": [
+      {
+        "product_id": 30,
+        "product_name": "Vitamin Coating Hard Standard",
+        "qty": 1
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glaze Colors Canes Seasonal Shapes",
+        "qty": 5
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glaze Colors Hearts Seasonal Shapes",
+        "qty": 4
+      },
+      {
+        "product_id": 13,
+        "product_name": "Salted Australian Braids",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 60171818,
+    "customer_id": 23,
+    "timestamp": "2024-02-01T02:04:58.241037",
+    "items": [
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 8,
+        "product_name": "Black/Red/White Laces Ropes",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 21117734,
+    "customer_id": 2,
+    "timestamp": "2024-02-01T14:48:36.944373",
+    "items": [
+      {
+        "product_id": 18,
+        "product_name": "Black/Red/White Twists Braids",
+        "qty": 3
+      },
+      {
+        "product_id": 1,
+        "product_name": "Glaze Colors Canes Seasonal Shapes",
+        "qty": 1
+      },
+      {
+        "product_id": 13,
+        "product_name": "Salted Australian Braids",
+        "qty": 3
+      },
+      {
+        "product_id": 16,
+        "product_name": "Black/Red/White Twists Ropes",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 76050151,
+    "customer_id": 29,
+    "timestamp": "2024-02-01T00:00:25.315953",
+    "items": [
+      {
+        "product_id": 26,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 2,
+        "product_name": "Themed Foils Canes Seasonal Shapes",
+        "qty": 4
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 1
+      },
+      {
+        "product_id": 28,
+        "product_name": "Vitamin Coating Hard Medicated Drops",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 83453239,
+    "customer_id": 21,
+    "timestamp": "2024-02-01T16:38:56.245667",
+    "items": [
+      {
+        "product_id": 17,
+        "product_name": "Salted Twists Braids",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 71838011,
+    "customer_id": 15,
+    "timestamp": "2024-02-01T10:13:37.776034",
+    "items": [
+      {
+        "product_id": 28,
+        "product_name": "Vitamin Coating Hard Medicated Drops",
+        "qty": 2
+      },
+      {
+        "product_id": 7,
+        "product_name": "Salted Laces Ropes",
+        "qty": 4
+      },
+      {
+        "product_id": 11,
+        "product_name": "Salted Australian Ropes",
+        "qty": 4
+      },
+      {
+        "product_id": 3,
+        "product_name": "Glaze Colors Hearts Seasonal Shapes",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 24957457,
+    "customer_id": 16,
+    "timestamp": "2024-02-01T01:15:55.606714",
+    "items": [
+      {
+        "product_id": 17,
+        "product_name": "Salted Twists Braids",
+        "qty": 3
+      },
+      {
+        "product_id": 15,
+        "product_name": "Salted Twists Ropes",
+        "qty": 1
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 13,
+        "product_name": "Salted Australian Braids",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 73517118,
+    "customer_id": 21,
+    "timestamp": "2024-02-01T19:30:22.281981",
+    "items": [
+      {
+        "product_id": 27,
+        "product_name": "Natural Dyes Hard Medicated Drops",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 19987469,
+    "customer_id": 28,
+    "timestamp": "2024-02-01T18:27:30.537248",
+    "items": [
+      {
+        "product_id": 11,
+        "product_name": "Salted Australian Ropes",
+        "qty": 2
+      },
+      {
+        "product_id": 8,
+        "product_name": "Black/Red/White Laces Ropes",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 10063390,
+    "customer_id": 6,
+    "timestamp": "2024-02-01T10:56:45.561115",
+    "items": [
+      {
+        "product_id": 9,
+        "product_name": "Salted Laces Braids",
+        "qty": 3
+      },
+      {
+        "product_id": 21,
+        "product_name": "Natural Dyes Gummy Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 10,
+        "product_name": "Black/Red/White Laces Braids",
+        "qty": 1
+      },
+      {
+        "product_id": 19,
+        "product_name": "Natural Dyes Gummy Medicated Drops",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 84245049,
+    "customer_id": 8,
+    "timestamp": "2024-02-01T16:56:50.381546",
+    "items": [
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 3
+      },
+      {
+        "product_id": 9,
+        "product_name": "Salted Laces Braids",
+        "qty": 5
+      },
+      {
+        "product_id": 28,
+        "product_name": "Vitamin Coating Hard Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 12,
+        "product_name": "Black/Red/White Australian Ropes",
+        "qty": 4
+      },
+      {
+        "product_id": 29,
+        "product_name": "Natural Dyes Hard Standard",
+        "qty": 5
+      }
+    ]
+  },
+  {
+    "transaction_id": 53802054,
+    "customer_id": 14,
+    "timestamp": "2024-02-01T20:16:47.439706",
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Black/Red/White Twists Ropes",
+        "qty": 4
+      }
+    ]
+  },
+  {
+    "transaction_id": 63321912,
+    "customer_id": 11,
+    "timestamp": "2024-02-01T20:14:31.604654",
+    "items": [
+      {
+        "product_id": 14,
+        "product_name": "Black/Red/White Australian Braids",
+        "qty": 2
+      },
+      {
+        "product_id": 2,
+        "product_name": "Themed Foils Canes Seasonal Shapes",
+        "qty": 3
+      },
+      {
+        "product_id": 10,
+        "product_name": "Black/Red/White Laces Braids",
+        "qty": 3
+      },
+      {
+        "product_id": 11,
+        "product_name": "Salted Australian Ropes",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 9295307,
+    "customer_id": 15,
+    "timestamp": "2024-02-01T08:18:10.976507",
+    "items": [
+      {
+        "product_id": 25,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 5
+      },
+      {
+        "product_id": 26,
+        "product_name": "Vitamin Coating Chocolate Standard",
+        "qty": 3
+      },
+      {
+        "product_id": 4,
+        "product_name": "Themed Foils Hearts Seasonal Shapes",
+        "qty": 3
+      },
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 73002860,
+    "customer_id": 23,
+    "timestamp": "2024-02-01T01:33:32.063155",
+    "items": [
+      {
+        "product_id": 10,
+        "product_name": "Black/Red/White Laces Braids",
+        "qty": null
+      },
+      {
+        "product_id": 18,
+        "product_name": "Black/Red/White Twists Braids",
+        "qty": 5
+      },
+      {
+        "product_id": 27,
+        "product_name": "Natural Dyes Hard Medicated Drops",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 33584426,
+    "customer_id": 3,
+    "timestamp": "2024-02-01T09:45:31.223226",
+    "items": [
+      {
+        "product_id": 11,
+        "product_name": "Salted Australian Ropes",
+        "qty": 4
+      },
+      {
+        "product_id": 20,
+        "product_name": "Vitamin Coating Gummy Medicated Drops",
+        "qty": 5
+      },
+      {
+        "product_id": 16,
+        "product_name": "Black/Red/White Twists Ropes",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 52239371,
+    "customer_id": 29,
+    "timestamp": "2024-02-01T07:24:19.036898",
+    "items": [
+      {
+        "product_id": 14,
+        "product_name": "Black/Red/White Australian Braids",
+        "qty": 3
+      },
+      {
+        "product_id": 13,
+        "product_name": "Salted Australian Braids",
+        "qty": 4
+      },
+      {
+        "product_id": 22,
+        "product_name": "Vitamin Coating Gummy Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 207832,
+    "customer_id": 3,
+    "timestamp": "2024-02-01T04:45:03.127311",
+    "items": [
+      {
+        "product_id": 8,
+        "product_name": "Black/Red/White Laces Ropes",
+        "qty": 3
+      }
+    ]
+  },
+  {
+    "transaction_id": 52476042,
+    "customer_id": 27,
+    "timestamp": "2024-02-01T07:16:25.471903",
+    "items": [
+      {
+        "product_id": 23,
+        "product_name": "Natural Dyes Chocolate Medicated Drops",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 22565886,
+    "customer_id": 13,
+    "timestamp": "2024-02-01T05:16:21.063491",
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Black/Red/White Twists Ropes",
+        "qty": 5
+      },
+      {
+        "product_id": 4,
+        "product_name": "Themed Foils Hearts Seasonal Shapes",
+        "qty": 1
+      }
+    ]
+  },
+  {
+    "transaction_id": 29938387,
+    "customer_id": 24,
+    "timestamp": "2024-02-01T14:10:20.631174",
+    "items": [
+      {
+        "product_id": 12,
+        "product_name": "Black/Red/White Australian Ropes",
+        "qty": 4
+      },
+      {
+        "product_id": 15,
+        "product_name": "Salted Twists Ropes",
+        "qty": 2
+      },
+      {
+        "product_id": 17,
+        "product_name": "Salted Twists Braids",
+        "qty": null
+      }
+    ]
+  },
+  {
+    "transaction_id": 11410161,
+    "customer_id": 2,
+    "timestamp": "2024-02-01T09:20:21.448512",
+    "items": [
+      {
+        "product_id": 16,
+        "product_name": "Black/Red/White Twists Ropes",
+        "qty": 1
+      },
+      {
+        "product_id": 29,
+        "product_name": "Natural Dyes Hard Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 24,
+        "product_name": "Vitamin Coating Chocolate Medicated Drops",
+        "qty": 3
+      },
+      {
+        "product_id": 14,
+        "product_name": "Black/Red/White Australian Braids",
+        "qty": 2
+      }
+    ]
+  },
+  {
+    "transaction_id": 10279170,
+    "customer_id": 8,
+    "timestamp": "2024-02-01T05:50:02.379622",
+    "items": [
+      {
+        "product_id": 25,
+        "product_name": "Natural Dyes Chocolate Standard",
+        "qty": 4
+      },
+      {
+        "product_id": 18,
+        "product_name": "Black/Red/White Twists Braids",
+        "qty": 4
+      },
+      {
+        "product_id": 27,
+        "product_name": "Natural Dyes Hard Medicated Drops",
+        "qty": 1
+      }
+    ]
+  }
+]
