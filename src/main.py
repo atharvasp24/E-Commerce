@@ -4,7 +4,7 @@ from dotenv import load_dotenv
 from datetime import datetime, timedelta
 import os
 from pyspark.sql.functions import col
-from typing import Dict, Tuple
+from typing import Dict, Tuple, List
 import traceback
 
 
@@ -18,6 +18,7 @@ def create_spark_session(app_name: str = "CandyStoreAnalytics") -> SparkSession:
             "spark.jars.packages", "org.mongodb.spark:mongo-spark-connector_2.12:3.0.1"
         )
         .config("spark.jars", os.getenv("MYSQL_CONNECTOR_PATH"))
+        .config("spark.driver.extraClassPath", os.getenv("MYSQL_CONNECTOR_PATH"))
         .config("spark.mongodb.input.uri", os.getenv("MONGODB_URI"))
         .getOrCreate()
     )
@@ -38,18 +39,21 @@ def get_date_range(start_date: str, end_date: str) -> list[str]:
 
 
 def print_header():
-    print("*" * 80)
-    print("                        CANDY STORE DATA PROCESSING SYSTEM")
-    print("                               Analysis Pipeline")
-    print("*" * 80)
+    banner_width = 80
+    print("*" * banner_width)
+    print("                    CANDY STORE DATA PROcESSING SYSTEM")
+    print("                      Analysis Pipeline")
+    print("*" * banner_width)
 
 
-def print_processing_period(date_range: list):
+def print_processing_period(date_list: List[str]):
+    """Display the date range being processed"""
     print("\n" + "=" * 80)
-    print("PROCESSING PERIOD")
+    print("PROCESSING WINDOW")
     print("-" * 80)
-    print(f"Start Date: {date_range[0]}")
-    print(f"End Date:   {date_range[-1]}")
+    print(f"Starting From: {date_list[0]}")
+    print(f"Ending On:     {date_list[-1]}")
+    print(f"Duration:      {len(date_list)} days")
     print("=" * 80)
 
 
@@ -118,7 +122,10 @@ def generate_forecasts(
 
     try:
         if final_daily_summary is not None and final_daily_summary.count() > 0:
-            print("Schema before forecasting:", final_daily_summary.printSchema())
+            print(
+                "This is the schema before forecasting:",
+                final_daily_summary.printSchema(),
+            )
             forecast_df = data_processor.forecast_sales_and_profits(final_daily_summary)
             if forecast_df is not None:
                 data_processor.save_to_csv(
@@ -132,45 +139,60 @@ def generate_forecasts(
 
 
 def main():
+    """Main application entry point"""
     print_header()
 
     # Setup
     config, date_range = setup_configuration()
     print_processing_period(date_range)
 
-    # Initialize processor
     spark = create_spark_session()
-    data_processor = DataProcessor(spark)
 
     try:
         # Configure and load data
-        data_processor.configure(config)
-
+        data_processor = initialize_data_processor(spark, config)
         print("Start batch processing for project 2!")
 
-        # Generate forecasts
-        try:
-            # daily_summary_df follows the same schema as the daily_summary that you save to csv
-            # schema:
-            # - date: date - The business date
-            # - num_orders: integer - Total number of orders for the day
-            # - total_sales: decimal(10,2) - Total sales amount for the day
-            # - total_profit: decimal(10,2) - Total profit for the day
-            forecast_df = data_processor.forecast_sales_and_profits(
-                data_processor.daily_summary_df
+        # Load reference data
+        customers_df, products_df = data_processor.load_data_from_mysql(config)
+
+        # Setup inventory
+        data_processor.set_initial_inventory(products_df)
+
+        # Process all batches for date range
+        print("\nBEGINNING BATCH PROCESSING")
+        print("-" * 80)
+        data_processor.process_all_batches(date_range)
+
+        # Save processed data
+        output_path = config["output_path"]
+        if data_processor.orders_df is not None:
+            data_processor.save_to_csv(
+                data_processor.orders_df, output_path, "orders.csv"
             )
-            if forecast_df is not None:
-                data_processor.save_to_csv(
-                    forecast_df, config["output_path"], "sales_profit_forecast.csv"
-                )
-        except Exception as e:
-            print(f"⚠️  Warning: Could not generate forecasts: {str(e)}")
+        if data_processor.order_line_items_df is not None:
+            data_processor.save_to_csv(
+                data_processor.order_line_items_df, output_path, "order_line_items.csv"
+            )
+        if data_processor.daily_summary_df is not None:
+            data_processor.save_to_csv(
+                data_processor.daily_summary_df, output_path, "daily_summary.csv"
+            )
+
+        # Update and save inventory
+        updated_inventory = data_processor.update_inventory_table()
+        data_processor.save_to_csv(
+            updated_inventory, output_path, "products_updated.csv"
+        )
+
+        # Generate forecasts
+        generate_forecasts(data_processor, data_processor.daily_summary_df, output_path)
 
     except Exception as e:
         print(f"\n❌ Error occurred: {str(e)}")
         raise
     finally:
-        print("\nCleaning up...")
+        print("\nCleaning up ...")
         spark.stop()
 
 

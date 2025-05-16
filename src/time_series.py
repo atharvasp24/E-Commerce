@@ -1,7 +1,7 @@
 import numpy as np
+import pandas as pd
 from sklearn.metrics import mean_squared_error, mean_absolute_error
 from prophet import Prophet
-import pandas as pd
 
 
 class ProphetForecaster:
@@ -12,25 +12,36 @@ class ProphetForecaster:
         self.training_data = None
         self.dates = None
         self.last_date = None
+        self.is_trained = False  # Track if model is trained
 
-    def fit(self, data: np.ndarray) -> None:
+    def fit(self, data: np.ndarray, start_date: str = None) -> None:
         """Fit Prophet model to the training data"""
+        if len(data) == 0:
+            raise ValueError("Training data cannot be empty")
+
         self.training_data = data
 
-        # Create dates for the training data (daily frequency)
-        self.dates = pd.date_range(end=pd.Timestamp.today(), periods=len(data))
+        # Create date range for training data
+        if start_date:
+            self.dates = pd.date_range(start=start_date, periods=len(data))
+        else:
+            self.dates = pd.date_range(end=pd.Timestamp.today(), periods=len(data))
+
         self.last_date = self.dates[-1]
 
-        # Create DataFrame in Prophet format
+        # Prepare DataFrame for Prophet model
         df = pd.DataFrame({"ds": self.dates, "y": data})
 
-        # Fit the model
+        # Train the model
         self.model.fit(df)
+        self.is_trained = True  # Mark as trained
 
     def predict(self, forecast_days: int) -> np.ndarray:
         """Generate forecasts using Prophet"""
-        if self.model is None:
-            raise ValueError("Model must be fit before making predictions")
+        if not self.is_trained:
+            raise ValueError(
+                "Model must be trained using fit() before making predictions"
+            )
 
         # Create future dates for prediction
         future_dates = pd.date_range(
@@ -44,8 +55,8 @@ class ProphetForecaster:
 
     def get_metrics(self) -> dict:
         """Calculate forecast accuracy metrics without rounding"""
-        if self.model is None:
-            raise ValueError("Model must be fit before calculating metrics")
+        if not self.is_trained:
+            raise ValueError("Model must be trained before calculating metrics")
 
         # Create DataFrame for the training period
         df = pd.DataFrame({"ds": self.dates, "y": self.training_data})
@@ -57,7 +68,7 @@ class ProphetForecaster:
         mae = mean_absolute_error(self.training_data, predicted_values)
         mse = mean_squared_error(self.training_data, predicted_values)
 
-        # Only round for display
+        # Print and return metrics
         print("\nModel Performance Metrics:")
         print("-" * 40)
         print(f"• Mean Absolute Error: ${mae:.2f}")
