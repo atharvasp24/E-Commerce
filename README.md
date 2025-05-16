@@ -1,172 +1,159 @@
-# Project-2
 
+# 🍬 Candy Store ETL & Forecasting Pipeline
 
+An end-to-end data processing pipeline built using **Apache Airflow**, **PySpark**, **MySQL**, **MongoDB**, and **Facebook Prophet** to simulate order processing and generate sales and profit forecasts for a fictional candy store.
 
-## Getting started
+## 📦 Project Overview
 
-To make it easy for you to get started with GitLab, here's a list of recommended next steps.
+This project automates the data ingestion, transformation, and analysis pipeline for a candy store:
 
-Already a pro? Just edit this README.md and make it your own. Want to make it easy? [Use the template at the bottom](#editing-this-readme)!
+- Extracts **orders** from MongoDB collections.
+- Loads **customer** and **product** metadata from MySQL.
+- Simulates **inventory management**, **order fulfillment**, and **cancellation** logic.
+- Summarizes **daily sales and profit**.
+- Forecasts future **sales and profits** using **Prophet**.
+- Outputs results to structured **CSV files**.
 
-## Add your files
+## 🧱 Tech Stack
 
-- [ ] [Create](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#create-a-file) or [upload](https://docs.gitlab.com/ee/user/project/repository/web_editor.html#upload-a-file) files
-- [ ] [Add files using the command line](https://docs.gitlab.com/ee/gitlab-basics/add-file.html#add-a-file-using-the-command-line) or push an existing Git repository with the following command:
+- **Apache Airflow** – DAG orchestration
+- **PySpark** – ETL processing
+- **MySQL** – Structured master data
+- **MongoDB** – Transactional order data
+- **Prophet** – Time-series forecasting
+- **Pandas / NumPy** – Local preprocessing
+- **dotenv** – Environment configuration
+
+## 🗂️ Project Structure
 
 ```
-cd existing_repo
-git remote add origin https://git.rc.rit.edu/s25-dsci-644-shreyas/project-2.git
-git branch -M main
-git push -uf origin main
+candy_store_etl/
+│
+├── dags/
+│   └── candy_store_processing.py       # Airflow DAG definition
+│
+├── processors/
+│   ├── data_processor.py              # Core ETL logic and inventory handling
+│   └── time_series.py                 # Forecasting using Prophet
+│
+├── utils/
+│   └── mysql_loader.py                # CSV to MySQL data insertion
+│
+├── data/
+│   └── dataset_16/                    # Input CSVs (customers, products)
+│
+├── output/
+│   ├── orders.csv
+│   ├── order_line_items.csv
+│   ├── daily_summary.csv
+│   └── sales_profit_forecast.csv
+│
+├── .env                               # Environment configuration
+└── README.md                          # Project documentation
 ```
 
-## Integrate with your tools
+## 🔄 Pipeline Workflow
 
-- [ ] [Set up project integrations](https://git.rc.rit.edu/s25-dsci-644-shreyas/project-2/-/settings/integrations)
+1. **Initialize Spark Session** with MySQL and MongoDB configs.
+2. **Load** customer & product data from MySQL.
+3. **Ingest** transactional order data from MongoDB (batched by date).
+4. **Simulate processing**: 
+   - Update inventory
+   - Handle cancellations
+   - Generate orders & line items
+5. **Generate summaries**: daily sales and profit
+6. **Forecast** future sales & profits with Prophet
+7. **Export** all results to CSV.
 
-## Collaborate with your team
+## ✅ Features
 
-- [ ] [Invite team members and collaborators](https://docs.gitlab.com/ee/user/project/members/)
-- [ ] [Create a new merge request](https://docs.gitlab.com/ee/user/project/merge_requests/creating_merge_requests.html)
-- [ ] [Automatically close issues from merge requests](https://docs.gitlab.com/ee/user/project/issues/managing_issues.html#closing-issues-automatically)
-- [ ] [Enable merge request approvals](https://docs.gitlab.com/ee/user/project/merge_requests/approvals/)
-- [ ] [Set auto-merge](https://docs.gitlab.com/ee/user/project/merge_requests/merge_when_pipeline_succeeds.html)
+- Inventory-aware order processing
+- Cancellation tracking for out-of-stock items
+- Daily summary reports
+- Forecast accuracy metrics (MAE & MSE)
+- Scalable with additional dates/data sources
 
-## Test and Deploy
+## ⚙️ Setup Instructions
 
-Use the built-in continuous integration in GitLab.
+### 1. Clone the Repository
 
-- [ ] [Get started with GitLab CI/CD](https://docs.gitlab.com/ee/ci/quick_start/index.html)
-- [ ] [Analyze your code for known vulnerabilities with Static Application Security Testing (SAST)](https://docs.gitlab.com/ee/user/application_security/sast/)
-- [ ] [Deploy to Kubernetes, Amazon EC2, or Amazon ECS using Auto Deploy](https://docs.gitlab.com/ee/topics/autodevops/requirements.html)
-- [ ] [Use pull-based deployments for improved Kubernetes management](https://docs.gitlab.com/ee/user/clusters/agent/)
-- [ ] [Set up protected environments](https://docs.gitlab.com/ee/ci/environments/protected_environments.html)
+```bash
+git clone https://github.com/your-username/candy-store-etl.git
+cd candy-store-etl
+```
 
-***
+### 2. Install Python Requirements
 
-# Editing this README
+```bash
+pip install -r requirements.txt
+```
 
-When you're ready to make this README your own, just edit this file and use the handy template below (or feel free to structure it however you want - this is just a starting point!). Thanks to [makeareadme.com](https://www.makeareadme.com/) for this template.
+### 3. Configure Environment Variables
 
-## Suggestions for a good README
+Create a `.env` file at the root with:
 
-Every project is different, so consider which of these sections apply to yours. The sections used in the template are suggestions for most open source projects. Also keep in mind that while a README can be too long and detailed, too long is better than too short. If you think your README is too long, consider utilizing another form of documentation rather than cutting out information.
-
-## Name
-Choose a self-explaining name for your project.
-
-## Description
-The Candy Store Data Processing System is a Python-based pipeline designed to process candy store transaction data, generate summary tables, update inventory, and forecast sales and profits. It integrates data from MySQL (customers and products) and MongoDB (daily transactions from February 1-10, 2024), processes it using Apache Spark, and automates the workflow with Apache Airflow. This project is developed for the DSCI-644 course at RIT (Spring 2025).
-
-## Badges
-On some READMEs, you may see small images that convey metadata, such as whether or not all the tests are passing for the project. You can use Shields to add some to your README. Many services also have instructions for adding a badge.
-
-## Visuals
-Depending on what you are making, it can be a good idea to include screenshots or even a video (you'll frequently see GIFs rather than actual videos). Tools like ttygif can help, but check out Asciinema for a more sophisticated method.
-
-## Installation
-Requirements
-- Operating System: Linux (tested on Ubuntu/WSL), macOS, or Windows with WSL
-- Python Version: 3.12 (via Miniconda)
-
-Dependencies:
-    apache-airflow==2.7.0
-    pyspark==3.5.0
-    pymongo
-    mysql-connector-python
-    python-dotenv
-    prophet
-    pandas
-    numpy
-    scikit-learn
-
-Steps:
-
-1. Install Miniconda:
-`wget https://repo.anaconda.com/miniconda/Miniconda3-latest-Linux-x86_64.sh
-bash Miniconda3-latest-Linux-x86_64.sh
-source ~/.bashrc`
-2. Create Conda Environment:
-`conda create -n candy_store python=3.12
-conda activate candy_store`
-3. Install Dependencies:
-`pip install apache-airflow==2.7.0 pyspark==3.5.0 pymongo mysql-connector-python python-dotenv prophet pandas numpy scikit-learn`
-4. Download MySQL Connector JAR:
-- Download mysql-connector-java-8.0.33.jar from MySQL.
-- Place it in a known directory.
-5. Set Environment Variables:
-Create a .env file in your project root:
-
-`DATASET_NUMBER='16'  # Enter your dataset number (e.g., '1', '2', etc.)
-MYSQL_CONNECTOR_PATH='/Users/atharvapatil/Downloads/RIT/SW_for_DS/mysql-connector-j-9.2.0/mysql-connector-j-9.2.0.jar'  # Path to your MySQL connector JAR file
-MONGODB_URI='mongodb://localhost:27017'
-MYSQL_URL="jdbc:mysql://localhost:3306/candy_store_${DATASET_NUMBER}"
-MYSQL_USER='athu24'  # Your MySQL username
-MYSQL_PASSWORD='ayushi13'  # Your MySQL password
-MYSQL_DB="candy_store_${DATASET_NUMBER}"
-CUSTOMERS_TABLE='customers'
-PRODUCTS_TABLE='products'
-MONGO_DB="candy_store_${DATASET_NUMBER}"
-MONGO_COLLECTION_PREFIX='transactions_'
-MONGO_START_DATE=20240201 
+```env
+MONGODB_URI=mongodb://localhost:27017
+MONGO_DB=candy_orders
+MONGO_COLLECTION_PREFIX=orders_
+MYSQL_URL=jdbc:mysql://localhost:3306/candy_store_16
+MYSQL_USER=athu24
+MYSQL_PASSWORD=ayushi13
+CUSTOMERS_TABLE=customers
+PRODUCTS_TABLE=products
+OUTPUT_PATH=/absolute/path/to/output
+RELOAD_INVENTORY_DAILY=false
+MONGO_START_DATE=20240201
 MONGO_END_DATE=20240210
-OUTPUT_PATH="data/output"`
+MYSQL_CONNECTOR_PATH=/path/to/mysql-connector-java.jar
+```
 
-6. Initialize Airflow:
-`airflow db init`
-## Usage
-Running Locally (main.py)
+### 4. Import Initial CSV Data into MySQL
 
-1. Navigate to the project directory:
-/Users/atharvapatil/Downloads/RIT/SW_for_DS/project-2
-2. Execute:
-`python main.py`
-3. Outputs are saved in /Users/atharvapatil/Downloads/RIT/SW_for_DS/project-2/output
+Use `mysql_loader.py` or run the provided insertion scripts to load `customers.csv` and `products.csv` into MySQL.
 
-**Running with Airflow (candy_store_dag.py)**
+### 5. Run the Pipeline (Locally)
 
-1. Copy Files to Airflow DAGs:
-cp /Users/atharvapatil/Downloads/RIT/SW_for_DS/project-2/src/candy_store_dag.py \
-   /Users/atharvapatil/Downloads/RIT/SW_for_DS/project-2/src/main.py \
-   /Users/atharvapatil/Downloads/RIT/SW_for_DS/project-2/src/time_series.py \
-   ~/airflow/dags/
+```bash
+python main.py
+```
 
-2. Start Airflow:
-`airflow webserver --port 8081 & airflow scheduler`
+### 6. Deploy with Airflow
 
-## Roadmap
-- Implement CI/CD for automated testing.
-- Add ARIMA forecasting alongside Prophet.
-- Enable real-time transaction processing.
+Make sure the DAG (`candy_store_processing`) is recognized by your Airflow environment and schedule it via the UI or CLI.
 
+## 📈 Output Files
 
-## Contributing
-Contributions are welcome for DSCI-644 collaboration! To contribute:
+All output files are stored in the `OUTPUT_PATH` directory:
+- `orders.csv`
+- `order_line_items.csv`
+- `daily_summary.csv`
+- `products_updated.csv`
+- `sales_profit_forecast.csv`
 
-1. Fork the repository.
-2. Create a branch: git checkout -b feature/your-feature.
-3. Commit changes: git commit -m "Add your feature".
-4. Push: git push origin feature/your-feature.
-5. Submit a merge request via Creating Merge Requests.
+## 🧪 Forecasting Example
 
-- Invite Members:
-Go to Manage > Members.
-Select Invite members, add usernames/emails, assign roles (e.g., Developer), and invite.
+The model uses **Facebook Prophet** for daily forecasting of:
+- Total Sales
+- Total Profit
 
-- Merge Requests:
-From Web Editor: Edit a file, commit to a new branch, and check Create a merge request.
-From Issues: Select Create merge request at the bottom of an issue.
+Metrics such as **MAE** and **MSE** are also logged for transparency.
 
-- Issues:
-Create: Go to Plan > Issues > New issue.
-Bulk Edit: Select Bulk edit, update multiple issues, and save.
+## 🔍 Sample Console Output
 
+```
+Processing transactions for date: 20240202
+• Orders Processed: 132
+• Total Sales: $12,400.75
+• Total Profit: $4,230.60
 
+Forecast Error Metrics:
+Sales MAE: $85.23
+Profit MAE: $47.91
+```
 
-## Authors
-Atharva Patil: Developer (RIT DSCI-644, Spring 2025).
+## 👨‍💻 Author
 
-## License
-MIT License - see LICENSE for details.
-## Project status
-Active development for DSCI-644 Project-2. Post-submission, maintenance will be minimal unless extended for future coursework.
+**Atharva Patil**  
+Data Science Graduate Student @ RIT  
+[LinkedIn](https://www.linkedin.com/in/atharva-patil-420660200/)
